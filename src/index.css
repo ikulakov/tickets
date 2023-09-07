@@ -1,0 +1,16 @@
+@import './normalize.css';
+
+:root {
+    --bg-color: #f3f7fa;
+}
+
+.app {
+    background-color: var(--bg-color);
+    min-height: 100vh;
+}
+.layout {
+    width: 1280px; 
+    margin: 0 auto;
+    padding: 20px 0;
+    gap: 20px;
+}
